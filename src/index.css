@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-green-15: #1A3129;
+    --dark-green-20: #234338;
+    --dark-green-25: #2C5446;
+    --dark-green-30: #346454;
+    --dark-green-40: #468671;
+    --dark-green-60: #79B9A4;
+    --dark-green-80: #BCDCD1;
+    --dark-green-90: #DDEDE8;
+    --dark-shades-10:#191919;
+    --dark-shades-15:#262626;
+    --dark-shades-20:#333333;
+    --dark-shades-30:#4C4C4D;
+    --dark-shades-35:#59595A;
+    --dark-shades-40:#656567;
+    --dark-shades-60:#98989A;
+    --dark-shades-90:#E6E6E6;
+    --dark-shades-95:#F2F2F2;
+    --dark-shades-97:#F7F7F7;
+    --dark-shades-99:#FCFCFC;
+
+
+  }
+@layer utilities {
+  .text-green-70 {
+    color: #cbea7b;
+  }
+  .text-green-75 {
+    color: #d3ee91;
+  }
+  .text-green-80 {
+    color: #dcf1a7;
+  }
+  .text-green-85 {
+    color: #e5f5bd;
+  }
+  .text-green-90 {
+    color: #eef8d3;
+  }
+  .text-green-95 {
+    color: #f6fbe9;
+  }
+  .text-green-97 {
+    color: #fafdf2;
+  }
+  .text-green-99 {
+    color: #fdfefb;
+  }
+  .text-dark-green-15 {
+    color: var(--dark-green-15);
+  }
+  .text-dark-green-20 {
+    color: var(--dark-green-20);
+  }
+  .text-dark-green-25 {
+    color: var(--dark-green-25);
+  }
+  .text-dark-green-30 {
+    color: var(--dark-green-30);
+  }
+  .text-dark-green-40 {
+    color: var(--dark-green-40);
+  }
+  .text-dark-green-60 {
+    color: var(--dark-green-60);
+  }
+  .text-dark-green-80 {
+    color: var(--dark-green-80);
+  }
+  .text-dark-green-90 {
+    color: var(--dark-green-90);
+  }
+   .text-dark-shades-10 {
+    color: var(--dark-shades-10);
+  }
+  .text-dark-shades-15 {
+    color: var(--dark-shades-15);
+  }
+  .text-dark-shades-20 {
+    color: var(--dark-shades-20);
+  }
+  .text-dark-shades-30 {
+    color: var(--dark-shades-30);
+  }
+  .text-dark-shades-40 {
+    color: var(--dark-shades-40);
+  }
+  .text-dark-shades-60 {
+    color: var(--dark-shades-60);
+  }
+  .text-dark-shades-80 {
+    color: var(--dark-shades-80);
+  }
+  .text-dark-shades-90 {
+    color: var(--dark-shades-90);
+  }
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+@layer base {
+    .active-style {
+      color: #CBEA7B; /* Aktif olduğunda rengi değiştirin */
+    }
+  }
